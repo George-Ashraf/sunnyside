@@ -1,0 +1,233 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999999999;
+}
+
+
+.navbar .navbar-brand {
+color: white;
+font-weight: bold;
+}
+.navbar .navbar-nav{
+    margin-right: 50px;
+}
+.nav-item{
+margin-left:35px ;
+border-radius: 25px;
+}
+
+.nav-item .nav-link{
+    color: white;
+    border-radius: 25px;
+    transition: all 1s;
+
+}
+.nav-item .nav-link:hover{
+background-color: white;
+color: black;
+font-weight: 600;
+}
+.home{
+    width: 100%;
+    height:auto;
+    padding-bottom: 260px;
+   background-image: url(../assets/images/desktop/image-header.jpg);
+   background-size: 100% 100%;
+   display: flex;
+   justify-content: center;
+}
+.home .head{
+   margin-top: 200px;
+    height: 300px;
+    text-align: center;
+}
+.home .head h1{
+ 
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.home .head i{
+    margin-top: 50px;
+    color: white;
+    font-size: 90px;
+}
+
+.transform{
+width: 100%;
+height:auto;
+}
+.transform .text{
+    height: 500px;
+display: flex;
+justify-content: center;
+}
+.transform .text .small{
+   margin-top: 130px;
+}
+.transform .text h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.transform .text p{
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.transform .text .p2{
+    color: black;
+    font-weight: bold;
+}
+.transform .img {
+    height: 500px;
+    padding: 0;
+ 
+}
+.transform .img img{
+width: 100%;
+height: 100%;
+}
+.Projects{
+    width: 100%;
+    height:auto;
+}
+.Projects .photo{
+    height: auto;
+    background-image: url(../assets/images/desktop/image-graphic-design.jpg); 
+    background-size: 100% 100%;
+    padding-top: 330px;
+    padding-bottom: 30px;
+
+}
+.Projects .photo .text{
+    height: auto;
+    text-align: center;
+   margin: auto;
+
+
+}
+.Projects .photo .text h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.Projects .Graphic{
+    height: auto;
+    background-image: url(../assets/images/desktop/image-photography.jpg); 
+    background-size: 100% 100%;
+    padding-top: 330px;
+    padding-bottom: 30px;
+
+}
+.Projects .Graphic .text{
+    height: auto;
+    text-align: center;
+   margin: auto;
+
+
+}
+.Projects .Graphic .text h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.clients{
+width: 100%;
+height: auto;
+padding-bottom: 40px;
+}
+.clients .head{
+    width: 100%;
+    height: 200px;
+}
+.clients .head h2{
+text-align: center;
+padding-top: 80px;
+color: grey;
+}
+
+.clients .client{
+    height: auto;
+    padding-bottom: 30px;
+
+    
+}
+.clients .client .img{
+ margin: auto;
+ width: 150px;
+ height: 140px;
+ padding: 0;
+ margin-bottom: 20px;
+}
+.clients .client img{
+    border-radius: 50%;
+     margin-bottom: 30px;
+     width: 100%;
+     height: 100%;}
+.clients .client p{
+    text-align: center;
+    color: grey;
+}
+.clients .client .p2{
+  padding-top: 60px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.clients .client .p3{
+color: darkgrey;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.image .img{
+    padding: 0;
+    height: auto;
+}
+.image .img img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: lightgreen;
+    width: 100%;
+    height: 300px;
+    color: green;
+    text-align: center;
+}
+.p1 ,.p2 ,.p3{
+height: 100px;
+}
+footer .p1{
+    padding-top: 30px;
+}
+
+footer .p2 .row{
+    justify-content: center;
+}
+footer .p2 .row  a{
+    color: green;
+}
+footer .p2 .row a p {
+    margin-left: 20px;
+}
+footer .p3 a{
+    color: green;
+}
+
+footer .p3  i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+@media (max-width:480px) {
+    .navbar .collapse{
+        background-color: rgba(255, 255, 255, 0.375);
+        border-radius: 30px;
+    }
+    .navbar .collapse .nav-item .nav-link{
+     text-align: center;
+    }
+}
